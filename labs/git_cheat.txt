@@ -1,0 +1,10 @@
+git init 	initialize a new Git repository in the current directory
+git status 	check the status of the local Git repo
+git reset HEAD -- FILE_NAME 	discard changes in your working directory
+git add FILE_NAME 	add a file to the Git staging area
+git checkout -- FILE_NAME 	remove added file from the staging area
+git commit -m "COMMIT MESSAGE" 	commit all files in the staging area to Git with a commit message
+git remote -v 	view remote repositories connect to local repository
+git pull 	pull all changes from your remote repository to your local Git repository
+git push -u origin master 	push your work to the remote named origin and branch named master. Adding the -u sets origin and "master as the default remote and branch to push to from then on
+git push 	push all commits to default remote and branch
